@@ -25,7 +25,7 @@ body {
 
 .nav-container {
     position: fixed;
-    background-color: darkgreen;
+    background-color: darkblue;
     top: 80px;
     left: 0;
     z-index: 500;
@@ -58,7 +58,7 @@ a {
     z-index  : 500;
     width    : 100%;
     height   : 40px;
-    background-color: forestgreen;
+    background-color: darkblue;
     display: inline-flex;
     justify-content: center;
     gap: 20%;
