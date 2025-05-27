@@ -63,3 +63,7 @@ a {
     justify-content: center;
     gap: 20%;
 }
+
+a:hover {
+    color: whitesmoke
+}
