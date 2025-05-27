@@ -12,15 +12,16 @@ body {
     width: 100%;
     background-image: url(images/wood-bg.png);
     background-repeat: repeat-x;
-   
+
 }
+
 #logo_img {
     display: block;
     margin: auto;
     height: 70%;
     padding-top: 15px;
     padding-bottom: 15px;
-    
+
 }
 
 .nav-container {
@@ -35,29 +36,33 @@ body {
     display: inline-flex;
     justify-content: center;
     gap: 20%;
-    
+
 }
 
 a {
     color: aliceblue;
     padding-top: 10px;
-    
+
+}
+
+a:hover {
+    color: red;
 }
 
 #home-page-img {
     display: flex;
     margin: auto;
     width: 100%;
-      
+
 }
 
 #bottom {
-    position : fixed;
-    bottom   : 0;
-    left     : 0;
-    z-index  : 500;
-    width    : 100%;
-    height   : 40px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 500;
+    width: 100%;
+    height: 40px;
     background-color: darkblue;
     display: inline-flex;
     justify-content: center;
@@ -65,6 +70,177 @@ a {
 }
 
 
-a:hover {
-    color: whitesmoke;
+/* Animals web style */
+
+#Animals {
+    margin-top: 140px;
+    margin-left: auto;
+    background: url(images/map-blur.png);
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+}
+
+
+#animals-content {
+    padding-top: 5px;
+    padding-bottom: 30px;
+
+}
+
+a.animals-info {
+    text-decoration: none;
+    background: rgba(255, 255, 255, .8);
+    width: 95%;
+    height: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    margin-left: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+a.animals-info img {
+    height: 70px;
+    margin: 10px;
+    float: left;
+}
+
+a.animals-info h3 {
+    padding: 0;
+    margin-bottom: 0;
+    width: 90%;
+    color: #572800;
+
+}
+
+a.animals-info p {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    color: #131313;
+}
+
+a.animals-info img.right {
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+}
+
+/* Elephant html style */
+
+#main-animal-info {
+    margin-top: 130px;
+    background: url(images/map-blur.png);
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+}
+
+.animal-about {
+    display: block;
+    text-decoration: none;
+    background: rgba(255, 255, 255, .8);
+    margin: auto;
+    width: 90%;
+    margin-top: 13px;
+    padding: 10px;
+    padding-bottom: 50px;
+
+
+}
+
+.animal-about img {
+    width: 100%;
+}
+
+.animal-about h3 {
+    text-align: center;
+}
+
+/* Places web style */
+
+#places {
+    margin-top: 140px;
+    margin-left: auto;
+    background: url(images/map-blur.png);
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+}
+
+#places-content {
+    padding-top: 5px;
+    padding-bottom: 30px;
+
+}
+
+a.places-info {
+    text-decoration: none;
+    background: rgba(255, 255, 255, .8);
+    width: 95%;
+    height: 100px;
+    display: block;
+    margin: auto;
+    margin-top: 12px;
+    margin-left: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+
+a.places-info img {
+    height: 70px;
+    margin: 10px;
+    float: left;
+}
+
+a.places-info h3 {
+    padding: 0;
+    margin-bottom: 0;
+    width: 90%;
+    color: #572800;
+
+}
+
+a.places-info p {
+    margin: 0;
+    padding: 0;
+    width: 90%;
+    color: #131313;
+}
+
+a.places-info img.right {
+    float: right;
+    margin-top: 25px;
+    height: 40px;
+}
+
+
+/* places info style */
+#main-property-info {
+    margin-top: 130px;
+    background: url(images/map-blur.png);
+    background-repeat: repeat-y;
+    background-repeat: repeat-x;
+}
+
+.property-about {
+    display: block;
+    text-decoration: none;
+    background: rgba(255, 255, 255, .8);
+    margin: auto;
+    width: 90%;
+    margin-top: 13px;
+    padding: 10px;
+    padding-bottom: 50px;
+
+
+}
+
+.property-about img {
+    width: 100%;
+}
+
+.property-about h3 {
+    text-align: center;
 }
